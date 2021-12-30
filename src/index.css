@@ -7,7 +7,32 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.grid{
+  border: 1px solid #000000;
+}
+
+.grid td{
+  width: 50px;
+  height: 50px;
+}
+.boxChangeColor{
+  width: 50px;
+  height: 50px;
+  margin: 0 10px 0 0;
+}
+.listColors{
+  display: flex;
+}
+h2{
+  text-align: left;
+}
+.addBorder{
+  box-sizing: border-box;
+  border: 3px solid #095981;
+}
+.form_info_table{
+  padding: 20px 0;
+}
+.form_info_table label{
+  margin-right: 20px;
 }
